@@ -191,5 +191,9 @@ Full details of my publications can be found at any of the websites listed below
 
 [google scholar](https://scholar.google.com/citations?user=-x6ACiMAAAAJ&hl=en&oi=ao)
 
+[orcid](https://orcid.org/0000-0002-7788-4671)
+
+[Inspire](https://inspirehep.net/authors/1121755#with-citation-summary)
+
 
 

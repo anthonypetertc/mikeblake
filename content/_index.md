@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ""
-date: 2022-10-24
+date: 2025-07-24
 type: landing
 
 design:
@@ -14,10 +14,6 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
       text: ""
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
     design:
       css_class: dark
       background:
@@ -30,18 +26,21 @@ sections:
           size: cover
           position: center
           parallax: false
-  - block: markdown
-    content:
-      title: '📚 My Research'
-      subtitle: ''
-      text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-        
-        Please reach out to collaborate 😃
+  
+  - block: collection
+    content: 
+      title: Group
+      filters:
+        folders:
+          - group
     design:
-      columns: '1'
+      view: compact   # compact | card | avatar
+      columns: 3
+      show_social: true
+      show_interests: true
+      show_role: true
+      show_organizations: true
+ 
   - block: collection
     id: papers
     content:
