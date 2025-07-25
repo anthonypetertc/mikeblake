@@ -1,6 +1,6 @@
 ---
 title: Vaios Ziogas
-date:  23-10-26
+date: 2023-10-26
 external_link: https://inspirehep.net/authors/1385040
 ---
 
